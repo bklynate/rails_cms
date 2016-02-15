@@ -1,5 +1,13 @@
 source 'https://rubygems.org'
 
+gem 'haml-rails'
+gem 'bootstrap-sass'
+gem 'pry-rails'
+gem 'pry-byebug'
+gem 'puma'
+group :test do
+  gem 'minitest-rails'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
